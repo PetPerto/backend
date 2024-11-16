@@ -1,0 +1,20 @@
+{
+  "name": "@petperto/ts-config",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "files": [
+    "library.json",
+    "node.json"
+  ],
+  "devDependencies": {
+    "@petperto/prettier": "workspace:*",
+    "@petperto/eslint-config": "workspace:*"
+  },
+  "prettier": "@petperto/prettier",
+  "eslintConfig": {
+    "extends": [
+      "@petperto/eslint-config/library"
+    ]
+  }
+}

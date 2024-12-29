@@ -1,7 +1,9 @@
 import { Module } from '@nestjs/common'
 
+import { EnvModule } from './shared/module/env/env.module'
+
 @Module({
-  imports: [],
+  imports: [EnvModule],
   controllers: [],
   providers: [],
 })
